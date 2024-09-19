@@ -3,9 +3,27 @@
 
 body, td, th {
     color: blue;
-    text-shadow: 2px, 2px, 8px, black;
+    text-shadow: 1px 1px 1px white;
+    font-size: 1.1em;
 }
 
 body {
-    background: darkslategray;
+    text-align: center;
+    gap: 4px;
 }
+
+table {
+    border: solid 2px gray;
+    margin: auto;
+    padding: 2px;
+}
+
+th, td {
+    border-bottom: solid 1px gray;
+}
+
+th {
+    background: white;
+}
+
+table, tr, th, td {gap: 4px;}
