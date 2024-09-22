@@ -1,13 +1,12 @@
 
 
-
 /*positioning*/
 .zero {
     margin: 0;
     padding: 0;
-    height: 100%;
+    min-height: 100%;
     font-size: 200%;
-    overflow: hidden;
+
 }
 .centerText {text-align: center;}
 .center {margin: auto;}
@@ -18,7 +17,7 @@
 .blackFont {color: black;}
 .blueFont {color:darkblue}
 .radialGrayBack {
-    background: radial-gradient(ellipse at bottom, gray, transparent);
+    background: rgb(185, 184, 184);
 }
 .lightBlue {background: #7ea7f3c5;}
 .blueBorder {border: solid darkblue;}
