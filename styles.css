@@ -1,29 +1,20 @@
 
 
 
-body, td, th {
-    color: blue;
-    text-shadow: 1px 1px 1px white;
-    font-size: 1.1em;
+/*positioning*/
+.zero {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
 }
+.centerText {text-align: center;}
+.center {margin: auto;}
 
-body {
-    text-align: center;
-    gap: 4px;
+
+/*color*/
+.blackFont {color: black;}
+.blueFont {color:darkblue}
+.backgroundRedGray {background: radial-gradient(ellipse at top, gray, transparent);
+    background: radial-gradient(ellipse at bottom, red, transparent);
 }
-
-table {
-    border: solid 2px gray;
-    margin: auto;
-    padding: 2px;
-}
-
-th, td {
-    border-bottom: solid 1px gray;
-}
-
-th {
-    background: white;
-}
-
-table, tr, th, td {gap: 4px;}
+.backgroundWhite {background: #11111111;}
