@@ -14,7 +14,15 @@
 /*color*/
 .blackFont {color: black;}
 .blueFont {color:darkblue}
-.backgroundRedGray {background: radial-gradient(ellipse at top, gray, transparent);
-    background: radial-gradient(ellipse at bottom, red, transparent);
+.radialGrayBack {
+    background: radial-gradient(ellipse at bottom, gray, transparent);
 }
-.backgroundWhite {background: #11111111;}
+.lightBlue {background: #7ea7f3c5;}
+.blueBorder {border: solid darkblue;}
+td {border-top: solid 1px darkblue;}
+.whiteBack {background: white;}
+
+/*size*/
+.eighty-vw {
+    width: 80vw;
+}
