@@ -5,13 +5,14 @@
 .zero {
     margin: 0;
     padding: 0;
-    height: 100vh;
-    font-size: 130%;
+    height: 100%;
+    font-size: 200%;
+    overflow: hidden;
 }
 .centerText {text-align: center;}
 .center {margin: auto;}
 .leftText {text-align: left;}
-
+.bMargin {margin-bottom: 30px;}
 
 /*color*/
 .blackFont {color: black;}
